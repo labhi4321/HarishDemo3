@@ -25,6 +25,7 @@ time.sleep(5)
 driver.switch_to.window(mul_win_id[0])
 driver.find_element_by_xpath('//*[@id="main-menu"]/ul/li[1]/span').click()
 print("Clicked on Demo on Parent Window ")
+#yytty
 
 driver.quit()
 
