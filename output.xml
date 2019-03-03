@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.1 (Python 3.7.2rc1 on win32)" generated="20190303 14:22:39.837" rpa="false">
+<suite id="s1" name="Demo" source="C:\Users\Abhijit\PycharmProjects\HarishDemo\demo.robot">
+<test id="s1-t1" name="Login">
+<kw name="https://robotframework.org , browser=chrome, alias=None, remote_url=False, desired_capabilities=None, ff_profile_dir=None">
+<msg timestamp="20190303 14:22:40.040" level="FAIL">No keyword with name 'https://robotframework.org , browser=chrome, alias=None, remote_url=False, desired_capabilities=None, ff_profile_dir=None' found.</msg>
+<status status="FAIL" starttime="20190303 14:22:40.040" endtime="20190303 14:22:40.040"></status>
+</kw>
+<status status="FAIL" starttime="20190303 14:22:40.040" endtime="20190303 14:22:40.040" critical="yes">No keyword with name 'https://robotframework.org , browser=chrome, alias=None, remote_url=False, desired_capabilities=None, ff_profile_dir=None' found.</status>
+</test>
+<test id="s1-t2" name="Open Browser">
+<kw name="googlechrome">
+<msg timestamp="20190303 14:22:40.055" level="FAIL">No keyword with name 'googlechrome' found.</msg>
+<status status="FAIL" starttime="20190303 14:22:40.055" endtime="20190303 14:22:40.055"></status>
+</kw>
+<status status="FAIL" starttime="20190303 14:22:40.055" endtime="20190303 14:22:40.055" critical="yes">No keyword with name 'googlechrome' found.</status>
+</test>
+<status status="FAIL" starttime="20190303 14:22:39.837" endtime="20190303 14:22:40.055"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2">Critical Tests</stat>
+<stat pass="0" fail="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" id="s1" name="Demo">Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
